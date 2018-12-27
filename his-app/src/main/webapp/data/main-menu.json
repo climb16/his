@@ -1,0 +1,40 @@
+[
+  {
+    id: "sys-manager",
+    text: "系统管理"
+  },
+  {
+    id: "add-sys",
+    pid: "sys-manager",
+    text: "增加用户",
+    iconCls: "icon-add",
+    url: "../navbartree/navbartree.html"
+  },
+  {
+    id: "edit-sys",
+    pid: "sys-manager",
+    text: "修改用户",
+    iconCls: "icon-edit",
+    url: "../buttonedit/openwindow.html"
+  },
+  {
+    id: "perm-manager",
+    text: "权限管理"
+  },
+  {
+    id: "add-perm",
+    pid: "perm-manager",
+    text: "查询权限",
+    iconCls: "Note",
+    url: "../navbartree/navbartree.html",
+    iconPosition: "top"
+  },
+  {
+    id: "edit-perm",
+    pid: "perm-manager",
+    text: "操作权限",
+    iconCls: "Reports",
+    url: "../buttonedit/openwindow.html",
+    iconPosition: "top"
+  }
+]

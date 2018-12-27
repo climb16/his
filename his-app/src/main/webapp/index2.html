@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Layout</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <script src="scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="scripts/boot.js" type="text/javascript"></script>
+    <!-- 引入MiniUI的样式 -->
+    <link href="scripts/miniui/themes/default/miniui.css" rel="stylesheet" type="text/css"/>
+    <link href="scripts/miniui/themes/metro-gray/skin.css" rel="stylesheet" type="text/css"/>
+    <link href="scripts/miniui/themes/icons.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="layout" class="mini-layout" style="width:100%;height:900px;">
+    <div title="north" region="north" height="80" showSplitIcon="false" showHeader="false"
+         style="background-color: #ddd; position: relative;">
+        <div id="toolbar" class="mini-toolbar"
+             style="background-color: #ddd; border: 0px; position:absolute; bottom:0; right: 2px;">
+            <span class="mini-menubutton" iconCls="icon-user" plain="true" menu="#popupMenu">个人信息</span>
+        </div>
+        <!--menu-->
+        <ul id="popupMenu" class="mini-menu" style="display:none;">
+            <li class="separator"></li>
+            <li iconCls="icon-user">个人资料</li>
+            <li iconCls="icon-edit">修改密码</li>
+            <li iconCls="icon-remove">退出</li>
+        </ul>
+    </div>
+    <div title="south" region="south" showSplit="false" showHeader="false" showSplitIcon="false" height="10"
+         style="background-color: #ddd; padding-left: 4px;">
+        V1.0
+    </div>
+    <div title="菜单" region="west" width="240" expanded="true" showSplitIcon="true" showHeader="false">
+        <div id="main-menu" class="mini-outlookmenu" width="240" autoCollapse="false" url="data/main-menu.json"
+             style="border: 0px">
+        </div>
+    </div>
+    <div title="center" region="center">
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    mini.parse();
+    var layout = mini.get("layout");
+</script>
+
+<div class="description">
+</div>
+</body>
+</html>
