@@ -1,0 +1,62 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+.idea/saveactions_settings.xml
+.idea/workspace.xml
+his-app/src/main/webapp/scripts/miniui/themes/gray/images/layout/
+his-app/src/main/webapp/scripts/miniui/themes/gray/images/panel/
+his-app/src/main/webapp/scripts/miniui/themes/gray/images/splitter/
+his-app/src/main/webapp/scripts/miniui/themes/gray/images/tabs/
+his-app/src/main/webapp/scripts/miniui/themes/gray/images/treegrid/
+his-app/src/main/webapp/scripts/miniui/themes/pure/images/button/
