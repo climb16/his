@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
  * @sign 1.0
  */
 @Repository
-public class ResourceRepository {
+public class ResourceRepository implements org.springframework.data.repository.Repository {
 
     @Autowired
     JdbcTemplate jdbcTemplate;

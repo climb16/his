@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import javax.persistence.Table;
+
 /**
  * @author Guo Lixiao
  * @description
@@ -13,6 +15,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
+@Table(name = "hr_resource")
 public class ResourceDO {
 
     private Integer id;
